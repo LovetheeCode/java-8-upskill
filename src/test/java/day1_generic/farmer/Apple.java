@@ -3,9 +3,9 @@ package day1_generic.farmer;
 public class Apple {
 
     private String color;
-    private double weight;
+    private int weight;
 
-    public Apple(String color, double weight) {
+    public Apple(String color, int weight) {
         this.color = color;
         this.weight = weight;
     }
@@ -23,7 +23,7 @@ public class Apple {
         return weight;
     }
 
-    public void setWeight(double weight) {
+    public void setWeight(int weight) {
         this.weight = weight;
     }
 
